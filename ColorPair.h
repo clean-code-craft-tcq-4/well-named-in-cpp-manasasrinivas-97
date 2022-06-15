@@ -1,6 +1,7 @@
 #ifndef ColorPair__H___
 #define ColorPair__H___
 #include <string>
+#include <iostream>
 namespace TelCoColorCoder
 {
     enum MajorColor {WHITE, RED, BLACK, YELLOW, VIOLET};
