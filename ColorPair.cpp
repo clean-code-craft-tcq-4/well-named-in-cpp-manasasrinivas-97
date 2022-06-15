@@ -1,5 +1,5 @@
 #include "ColorPair.h"
-#include <iostream>
+
 using namespace TelCoColorCoder;
 
 ColorPair ColorPair::GetColorFromPairNumber(int pairNumber) {
