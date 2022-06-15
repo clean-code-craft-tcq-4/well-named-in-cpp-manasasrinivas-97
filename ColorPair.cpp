@@ -13,7 +13,7 @@ ColorPair ColorPair::GetColorFromPairNumber(int pairNumber) {
     int GetPairNumberFromColor(MajorColor major, MinorColor minor) {
         return major * numberOfMinorColors + minor + 1;
     }
-}
+
 void ColorPair::testNumberToPair(int pairNumber,
     TelCoColorCoder::MajorColor expectedMajor,
     TelCoColorCoder::MinorColor expectedMinor) {
@@ -30,4 +30,5 @@ void testPairToNumber(
     int pairNumber = GetPairNumberFromColor(major, minor);
     std::cout << "Got pair number " << pairNumber << std::endl;
     assert(pairNumber == expectedPairNumber);
+    }
 }
