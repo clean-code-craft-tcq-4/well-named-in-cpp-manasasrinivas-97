@@ -31,5 +31,5 @@
             void testPairToNumber(TelCoColorCoder::MajorColor major,
                 TelCoColorCoder::MinorColor minor,
                 int expectedPairNumber);
-}
+};
 #endif //ColorPair__H___
