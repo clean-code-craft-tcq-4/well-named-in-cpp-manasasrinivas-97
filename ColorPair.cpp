@@ -23,7 +23,7 @@ void ColorPair::testNumberToPair(int pairNumber,
     assert(colorPair.getMinor() == expectedMinor);
 }
 
-void testPairToNumber(
+void ColorPair::testPairToNumber(
     TelCoColorCoder::MajorColor major,
     TelCoColorCoder::MinorColor minor,
     int expectedPairNumber) {
