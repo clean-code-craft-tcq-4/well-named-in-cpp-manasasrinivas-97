@@ -3,7 +3,7 @@
 #include <assert.h>
 
 int main() {
-    TelCoColorCoder::ColorPair  *Obj = new TelCoColorCoder::ColorPair ();
+    TelCoColorCoder::ColorPair  *Obj = new TelCoColorCoder::ColorPair (TelCoColorCoder::WHITE, TelCoColorCoder::SLATE);
     Obj->testNumberToPair(4, TelCoColorCoder::WHITE, TelCoColorCoder::BROWN);
     Obj->testNumberToPair(5, TelCoColorCoder::WHITE, TelCoColorCoder::SLATE);
 
