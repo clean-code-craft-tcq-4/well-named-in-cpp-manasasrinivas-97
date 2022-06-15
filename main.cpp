@@ -1,4 +1,4 @@
-#include "ColorPair.h"
+
 #include <iostream>
 #include <assert.h>
 
