@@ -1,4 +1,5 @@
 #include "ColorPair.h"
+using namespace TelCoColorCoder;
 
 ColorPair ColorPair::GetColorFromPairNumber(int pairNumber) {
         int zeroBasedPairNumber = pairNumber - 1;
