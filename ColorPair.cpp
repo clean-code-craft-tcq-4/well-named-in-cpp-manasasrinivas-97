@@ -13,7 +13,6 @@ ColorPair ColorPair::GetColorFromPairNumber(int pairNumber) {
         return major * numberOfMinorColors + minor + 1;
     }
 }
-
 void ColorPair::testNumberToPair(int pairNumber,
     TelCoColorCoder::MajorColor expectedMajor,
     TelCoColorCoder::MinorColor expectedMinor)
