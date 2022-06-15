@@ -1,5 +1,5 @@
-#include <iostream>
-#include <assert.h>
+#ifndef ColorPair__H___
+#define ColorPair__H___
 
 namespace TelCoColorCoder
 {
@@ -38,3 +38,4 @@ namespace TelCoColorCoder
                 return colorPairStr;
             }
     };
+#endif //ColorPair__H___
