@@ -5,6 +5,8 @@
 #include <assert.h>
 namespace TelCoColorCoder
 {   
+    enum MajorColor {WHITE, RED, BLACK, YELLOW, VIOLET};
+    enum MinorColor {BLUE, ORANGE, GREEN, BROWN, SLATE};
     class ColorPair {
         private:
             MajorColor majorColor;
@@ -25,9 +27,8 @@ namespace TelCoColorCoder
                 colorPairStr += MinorColorNames[minorColor];
                 return colorPairStr;
             }
+    };
             ColorPair GetColorFromPairNumber(int pairNumber);
             int GetPairNumberFromColor(MajorColor major, MinorColor minor);
-    
-};
 }
 #endif //ColorPair__H___
