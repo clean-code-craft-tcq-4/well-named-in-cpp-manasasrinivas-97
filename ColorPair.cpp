@@ -16,7 +16,12 @@ MinorColor TelCoColorCoder::ColorPair::getMinor() {
 	return minorColor;
 }
 
-
+std::string TelCoColorCoder::ColorPair::ToString() {
+	std::string colorPairStr = MajorColorNames[majorColor];
+	colorPairStr += " ";
+	colorPairStr += MinorColorNames[minorColor];
+	return colorPairStr;
+}
 TelCoColorCoder::ColorPair TelCoColorCoder::GetColorFromPairNumber(int pairNumber) {
         int zeroBasedPairNumber = pairNumber - 1;
         MajorColor majorColor = 
