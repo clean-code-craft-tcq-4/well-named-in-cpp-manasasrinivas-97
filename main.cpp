@@ -26,14 +26,15 @@ void printColorCodeManual()
 		std::cout << pairNumber << "    " << colorPair.ToString() << std::endl;
 	}
 }
-int main() {
-    printColorCodeManual();
-    
-    testNumberToPair(4, TelCoColorCoder::WHITE, TelCoColorCoder::BROWN);
-    testNumberToPair(5, TelCoColorCoder::WHITE, TelCoColorCoder::SLATE);
+int main()
+{
+	printColorCodeManual();
 
-    testPairToNumber(TelCoColorCoder::BLACK, TelCoColorCoder::ORANGE, 12);
-    testPairToNumber(TelCoColorCoder::VIOLET, TelCoColorCoder::SLATE, 25);
+	testNumberToPair(4, WHITE, BROWN);
+	testNumberToPair(5, WHITE, SLATE);
 
-    return 0;
+	testPairToNumber(BLACK, ORANGE, 12);
+	testPairToNumber(VIOLET, SLATE, 25);
+
+	return 0;
 }
